@@ -93,7 +93,7 @@ const signup = (fastify: FastifyInstance) => async (request: FastifyRequest & { 
 
   reply
     .code(200)
-    .send(user);
+    .send();
 }
 
 export default { signin, signup };
